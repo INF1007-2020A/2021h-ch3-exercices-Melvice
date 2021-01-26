@@ -9,19 +9,19 @@ def square_root(a: float) -> float:
 
 
 def square(a: float) -> float:
-    return 0.0
+    return square(a)
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
+    return average (a+b+c)
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return 0.0
+    return to_radians(angle_degs, angle_mins, angle_secs)
 
 
 def to_degrees(angle_rads: float) -> tuple:
-    return 0.0, 0.0, 0.0
+    return to_degrees(angle_rads)
 
 
 def to_celsius(temperature: float) -> float:
